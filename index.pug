@@ -1,0 +1,45 @@
+html
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  body
+    // Menu
+    .menubar
+      .hambclicker
+      #hambmenu
+        span
+        span
+        span
+        span
+      .title
+        h2 Hi, I'm Simon.
+    .menu
+      ul
+        li
+          i(class="fa fa-pencil-square-o " id="session" aria-hidden="true")
+          a(href="https://github.com/Lakston" target="_blank")   Author
+        li
+          i(class="fa fa-github " id="session" aria-hidden="true")
+          a(href="https://github.com/Lakston/simon-game" target="_blank")   Github page
+        li
+          i(class="fa fa-twitter" id="session" aria-hidden="true")
+          a(href="https://twitter.com/Fab_is_coding" target="_blank")   Twitter
+      // Game
+    .container
+      .game
+        .button(id='b1')
+        .button(id='b2')
+        .button(id='b4')
+        .button(id='b3')
+        .center
+          .counter
+            p#display
+          .controls
+            .restart
+              p Restart
+              button
+                i(class="fa fa-refresh" aria-hidden="true")
+            .strict
+              p Strict
+              i(class="fa fa-square-o " aria-hidden="true")
+          .turnon
+            i(class="fa fa-power-off  " id="power" aria-hidden="true")
